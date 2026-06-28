@@ -1,0 +1,1 @@
+import{d as e,i as t,u as n}from"./Button-C7hbUuEL.js";e();var r=n();function i({children:e,className:n,onClick:i,hover:a=!1}){return(0,r.jsx)(`div`,{className:t(`rounded-xl border border-border bg-surface`,a&&`transition-all duration-200 hover:shadow-md hover:border-accent/30`,i&&`cursor-pointer`,n),onClick:i,children:e})}export{i as t};
