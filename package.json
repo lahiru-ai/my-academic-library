@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/my-academic-library",
+  "homepage": "https://lahiru-ai.github.io/my-academic-library",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

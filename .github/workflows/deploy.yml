@@ -23,6 +23,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          VITE_GOOGLE_CLIENT_ID: ${{ secrets.VITE_GOOGLE_CLIENT_ID }}
+          VITE_GOOGLE_SHEET_ID: ${{ secrets.VITE_GOOGLE_SHEET_ID }}
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
